@@ -1,7 +1,7 @@
 use minigrep::Config;
 use std::{env, process};
 
-/// cargo run -- search-string example-filename.txt
+// cargo run -- search-string example-filename.txt
 fn main() {
     let args= env::args();
     // dbg!(&args);
